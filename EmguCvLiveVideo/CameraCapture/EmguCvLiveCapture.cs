@@ -12,13 +12,13 @@ using System.Windows.Forms;
 
 namespace CameraCapture
 {
-    public partial class CameraCapture : Form
+    public partial class EmguCvLiveCapture : Form
     {
         //declaring global variables
         private Capture capture;        //takes images from camera as image frames
         private bool captureInProgress;
 
-        public CameraCapture()
+        public EmguCvLiveCapture()
         {
             InitializeComponent();
         }

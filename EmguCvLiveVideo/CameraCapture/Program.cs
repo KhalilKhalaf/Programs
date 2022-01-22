@@ -15,7 +15,7 @@ namespace CameraCapture
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CameraCapture());
+            Application.Run(new EmguCvLiveCapture());
         }
     }
 }

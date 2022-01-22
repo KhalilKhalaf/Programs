@@ -1,6 +1,6 @@
 ﻿namespace CameraCapture
 {
-    partial class CameraCapture
+    partial class EmguCvLiveCapture
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CameraCapture));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmguCvLiveCapture));
             this.CamImageBox = new Emgu.CV.UI.ImageBox();
             this.btnStartLiveVideo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.CamImageBox)).BeginInit();

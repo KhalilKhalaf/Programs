@@ -74,16 +74,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CameraCapture.cs">
+    <Compile Include="EmguCvLiveCapture.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CameraCapture.Designer.cs">
-      <DependentUpon>CameraCapture.cs</DependentUpon>
+    <Compile Include="EmguCvLiveCapture.Designer.cs">
+      <DependentUpon>EmguCvLiveCapture.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CameraCapture.resx">
-      <DependentUpon>CameraCapture.cs</DependentUpon>
+    <EmbeddedResource Include="EmguCvLiveCapture.resx">
+      <DependentUpon>EmguCvLiveCapture.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
